@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE IPR SYSTEM "IPR.dtd">
+<IPR name="Incredible Prime Root" version="1.0.1"><Inputs><filePath>C:\Users\Personal\workspace_2\IPR\src\IPR.xml</filePath><prime>7.0</prime><integral_degree>5</integral_degree><fooplot_url>http://fooplot.com/x^5-7.0</fooplot_url></Inputs><Outputs><Output>There were 5 iterations of Newton's Method</Output><Output>There were 7 iterations of Newton's Method</Output><Output>the 5th root of the prime number: 7.0 is 1.4757731615945617</Output></Outputs><Errors/></IPR>

@@ -1,0 +1,164 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--Style elements for the HTML Contents-->
+<style>
+#header {
+    margin: 0px;
+    padding: 1em 2em 1.5em 2em;
+	background: #531717;
+	border: 0px;
+    border-bottom: 1px solid black;
+	color: white;
+	font-size: large;
+}
+#footer {
+    margin: 0px;
+    padding: 1em 1em 1em 1em;
+	background: #531717;
+	border: 0px;
+    border-bottom: 1px solid black;
+	color: white;
+	font-size: 12px;
+	margin-top: 50px;
+	text-align: center;
+}
+#error {
+     border-width: 1px;
+     border-color: #531717;
+     border-style: dashed;
+     width: 70%;
+     height: 200px;
+     font-size: 12px;
+	 margin-top: 30px;
+	 margin-left:20px;
+}	
+#Sections_Titles {
+	color: #727E0A;
+	text-align: left;
+	font-size:large;
+	font-weight:bold;
+	margin-top:20px;
+}
+#Contents {
+	margin-left:70px;
+	margin-top:70px;
+}
+#Contents ul{
+	color: #531717
+}
+#Tbl {
+	font-size:12px;
+	color:black;
+	border-width: 1px;
+	border-color: #531717;
+	border-collapse: collapse;
+	margin-top:20px;
+	margin-left: 20px;
+}
+#Tbl th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #531717;
+	background-color: B0A372;
+}
+#Tbl td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #531717;
+	background-color: #ffffff;
+}
+body {
+	margin: 0px;
+	background-color: white;
+	font-family: Verdana;
+	color: black;
+}
+a:link {
+	COLOR: #531717;
+	text-decoration: none;
+}
+a:visited {
+	COLOR: #800080;
+}
+a:hover {
+	COLOR: #727E0A;
+}
+a:active {
+	COLOR: #00FF00;
+}
+</style>
+<!--Sets the Title of the Page. -->
+<title> IPR Outputs (SOEN6441) </title>
+</head>
+<body>
+<!--Prints out the header with the Page Title. -->
+<div id="header">
+IPR (Incredible Prime Root) / Team E
+</div>
+<div id="Contents">
+<!--Lists Point of Contacts / Mailto Links added to each Contact -->
+<div id="Sections_Titles">
+ Contacts
+</div>
+<ul>
+<li>
+<a href="mailto:cre@tivity.info">Feras AlJumah </a>
+</li>
+<li>
+<a href="mailto:NaifAlQahtani@hotmail.com"> Naif AlQahtani </a> .
+</li>
+</ul>
+<div id="Sections_Titles">
+Inputs
+</div>
+<!--Prints out Inputs Table / Extract Inputs from the XML file -->
+<table id="Tbl">
+<tr>
+<th>Input</th><th>Value</th>
+</tr>
+<tr>
+<td>XML File Path</td><td>C:\Users\Personal\workspace_2\IPR\src\IPR.xml</td>
+</tr>
+<tr>
+<td>Prime number</td><td>7.0</td>
+</tr>
+<tr>
+<td>Integral Degree</td><td>5</td>
+</tr>
+<tr>
+<td>Fooplot Graph</td><td><a target="_blank" href="http://fooplot.com/x^5-7.0">
+Click here to See Graph [open in new window]
+</a></td>
+</tr>
+</table>
+<div id="Sections_Titles">
+Outputs
+</div>
+<!--Prints out Outputs Table / Extract Outputs from the XML file -->
+<table id="Tbl">
+<tr>
+<th>Output</th><th>Value</th>
+</tr>
+<tr>
+<td>Output</td><td>There were 5 iterations of Newton's Method</td>
+</tr>
+<tr>
+<td>Output</td><td>There were 7 iterations of Newton's Method</td>
+</tr>
+<tr>
+<td>Output</td><td>the 5th root of the prime number: 7.0 is 1.4757731615945617</td>
+</tr>
+</table>
+<!--Prints out Errors Messages if any. -->
+<div id="Sections_Titles">
+Error Messages
+</div>
+<div id="error"></div>
+</div>
+<!-- Footer -->
+<div id="footer">Fall 2010</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!ELEMENT IPR ( Inputs, Outputs, Errors ) >
+<!ATTLIST IPR name CDATA #REQUIRED >
+<!ATTLIST IPR version CDATA #REQUIRED >
+<!ELEMENT Inputs ( filePath, prime, integral_degree,fooplot_url ) >
+<!ELEMENT Output ( #PCDATA ) >
+<!ELEMENT Errors ( #PCDATA ) >
+<!ELEMENT Outputs ( Output+ ) >
+<!ELEMENT filePath ( #PCDATA ) >
+<!ELEMENT integral_degree ( #PCDATA ) >
+<!ELEMENT prime ( #PCDATA ) >
+<!ELEMENT fooplot_url ( #PCDATA ) >
